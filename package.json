@@ -2,7 +2,7 @@
   "name": "electron-webpack-react-typescript-boilerplate",
   "productName": "electron-webpack-react-typescript-boilerplate",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Boilerplate for projects with Electron, Webpack, React and TypeScript",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
@@ -12,10 +12,7 @@
     "lint": "eslint --ext .ts ."
   },
   "keywords": [],
-  "author": {
-    "name": "cristianiniguez",
-    "email": "felizpc1@gmail.com"
-  },
+  "author": "cristianiniguez <felizpc1@gmail.com>",
   "license": "MIT",
   "config": {
     "forge": {
@@ -93,5 +90,13 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianiniguez/electron-webpack-react-typescript-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cristianiniguez/electron-webpack-react-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cristianiniguez/electron-webpack-react-typescript-boilerplate#readme"
 }
