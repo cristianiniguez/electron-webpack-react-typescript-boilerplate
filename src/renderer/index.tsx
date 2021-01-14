@@ -26,6 +26,18 @@
  * ```
  */
 
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import './index.css';
 
+const App = () => (
+  <>
+    <h1>💖 Hello World!</h1>
+    <p>Welcome to your Electron application.</p>
+  </>
+);
+
 console.log('👋 This message is being logged by "renderer.js", included via webpack');
+
+ReactDOM.render(<App />, document.getElementById('app'));
